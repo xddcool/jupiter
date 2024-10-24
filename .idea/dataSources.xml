@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="twitch" uuid="b9093577-2a8f-4fa2-87c7-ac9dbcae5fbd">
+    <data-source source="LOCAL" name="MySQL - @self.c3c0yk6qusb6.us-east-1.rds.amazonaws.com" uuid="25ac7816-1fc9-4da6-a4e4-3525823ef8f0">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://twitch.cdifk0mz8hft.us-east-1.rds.amazonaws.com:3306/</jdbc-url>
+      <jdbc-url>jdbc:mysql://self.c3c0yk6qusb6.us-east-1.rds.amazonaws.com:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
