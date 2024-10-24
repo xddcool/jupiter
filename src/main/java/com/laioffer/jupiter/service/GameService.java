@@ -23,7 +23,8 @@ import java.util.*;
 
 @Service
 public class GameService {
-    private static final String TOKEN = "Bearer 8xvpvm9t02orvmu64oj96huu466d98";
+    private static final String TOKEN = "Bearer j4q1uewaocsu0cttrqe8yxuohp54kp";
+    //After git pull, run postman to generate a new token
     private static final String CLIENT_ID = "0y1j8gxih7azatlbh25s2rr5deyhz5";
     private static final String TOP_GAME_URL = "https://api.twitch.tv/helix/games/top?first=%s";
     private static final String GAME_SEARCH_URL_TEMPLATE = "https://api.twitch.tv/helix/games?name=%s";

@@ -26,7 +26,7 @@ public class ApplicationConfig {
     public DataSource dataSource() {
         String RDS_ENDPOINT = "self.c3c0yk6qusb6.us-east-1.rds.amazonaws.com";
         String USERNAME = "admin";
-        String PASSWORD = "12345678!";
+        String PASSWORD = "12345678";//make sure password is correct
         //需要修改红色部分, 保留其他内容,  YOUR_RDS_INSTANCE_ADDRESS,USERNAME,  PASSWORD are information created last lesson
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
